@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>XMLExtractor</artifactId>
+    <artifactId>BankQueue</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>XMLExtractor</name>
-    <description>XML extractor</description>
+    <name>BankQueue</name>
+    <description>Bank queue</description>
     <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -24,6 +24,11 @@
         <artifactId>spring-boot-devtools</artifactId>
         <scope>runtime</scope>
         <optional>true</optional>
+    </dependency>
+        <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.13.3</version>
     </dependency>
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
